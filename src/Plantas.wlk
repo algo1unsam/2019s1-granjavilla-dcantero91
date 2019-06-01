@@ -32,7 +32,6 @@ class Tomaco inherits Planta {
 	
 	override method esRegada(hector){
 		
-		position=game.up(1)
 	}
 	override method esCosechada(hector){
 		hector.cosechar(self)
